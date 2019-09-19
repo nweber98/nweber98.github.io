@@ -28,11 +28,12 @@ body {
     height: 1024px;
     background-color:#FFFFF2;
     
-    position: relative;
+    position: absolute;
     
     left:25%;
     
 }
+
 
 .top-grid-box {
     margin-left: auto;
@@ -56,9 +57,12 @@ body {
     background-color:magenta;
 }
 
-.paragraph-container {
+.paragraph-container { 
     width:131px;
-    height:552px;
+    height:545px;
+    
+    position:relative;
+    top:-3%;
     
     background-color: yellow;
 }
