@@ -1,26 +1,9 @@
 body {
-    background-color: lightgoldenrodyellow;
+    background-color: chocolate;
     font-family: "Open Sans Condensed", sans-serif;
     color: black;
     margin: 0;
     padding: 0;
-}
-
-.container {
-    width: 768px;
-    height: 1024px;
-    margin: 0;
-    color: black;
-}
-
-.box {
-    margin-left: auto;
-    margin-right:auto;
-    width:491px;
-    background-color: aqua;
-    
-    display: flex;
-    align-items: center;
 }
 
 .header {
@@ -29,25 +12,53 @@ body {
     
 }
 
+
 .headline-container{
     margin-left: 125px;
     margin-right:auto;
-    width:700px;
+    width:408px;
+    height:43px;
     background-color: blue;
     
     display: flex;
     align-items: center;
 }
 
+.ipad-dimensions {
+    width: 768px;
+    height: 1024px;
+    background-color:#FFFFF2;
+    
+    position: relative;
+    
+    left:25%;
+    
+}
+
+.box {
+    margin-left: auto;
+    margin-right:auto;
+    width:606px;
+    height:545px;
+    background-color: aqua;
+    
+    display: flex;
+    align-items: center;
+}
+
+
 /*Letter button*/
 
 .letter-container{
-    width:491px;
+    width:391px;
+    height:545px;
     display: table;
     align-items:center;
     background-color:magenta;
 }
 
+
+/**
 h1 {
     font-size:60px;
     
@@ -70,6 +81,8 @@ h1 {
     margin-right:13.55px;
     background-color: greenyellow;
 }
+
+**/
 
 .footer-container{
     margin-left: 140px;
