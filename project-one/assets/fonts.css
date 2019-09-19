@@ -1,0 +1,126 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: "Open Sans Condensed", sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 768px;
+    height: 1024px;
+    margin: 0;
+    color: black;
+}
+
+.box {
+    margin-left: auto;
+    margin-right:auto;
+    width:491px;
+    background-color: aqua;
+    
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    height:60px;
+    background-color: aquamarine;
+    
+}
+
+.headline-container{
+    margin-left: 125px;
+    margin-right:auto;
+    width:700px;
+    background-color: blue;
+    
+    display: flex;
+    align-items: center;
+}
+
+/*Letter button*/
+
+.letter-container{
+    width:491px;
+    display: table;
+    align-items:center;
+    background-color:magenta;
+}
+
+h1 {
+    font-size:60px;
+    
+}
+
+.letter-container h1 {
+    font-size:449px;
+    font-weight:900;
+    margin-left:31.28px;
+    margin-right:13.55px;
+    margin-top:0px;
+    margin-bottom:0px;
+    background-color: yellow;
+    
+}
+
+.letter-container h5 {
+    margin-top:-60px;
+    margin-left:110px;
+    margin-right:13.55px;
+    background-color: greenyellow;
+}
+
+.footer-container{
+    margin-left: 140px;
+    margin-right: auto;
+    width:660px;
+    display:flex;
+    align-items:center;
+    background-color: palevioletred;
+    
+}
+
+.bio-container{
+    margin-top:20px;
+    display:table;
+    align-items: baseline;
+    background-color: darkorange;
+}
+
+.sources-container{
+    margin-top:20px;
+    margin-left:200px;
+    margin-right:300px;
+    display:table;
+    align-items: baseline;
+    background-color: darkmagenta;
+}
+
+/* Fonts **/
+.acumin-light {
+    font-family: acumin-pro-condensed, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.acumin-bold {   
+    font-family:acumin-pro-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: acumin-pro; sans-serif;
+    font-weight:400;
+    font-size:18px;
+}
+
+p {
+    font-size:14px;
+}
+
+h5 {
+    font-size: 12px;
+}
