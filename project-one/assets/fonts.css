@@ -8,6 +8,8 @@ body {
     padding: 0;
 }
 
+
+
 .header {
     height:60px;
     background-color: aquamarine;
@@ -15,12 +17,25 @@ body {
 }
 
 
-.headline-container{
-    margin-left: 125px;
-    margin-right:auto;
+
+.headline-container{    
     width:408px;
     height:43px;
+
+    position:relative;
+    left:190.5px;
+    
     background-color: blue;
+}
+
+.headline-separator{
+    width:606px;
+    height:38px;
+    
+    position:relative;
+    left:80px;
+    
+    background-color: black;
 }
 
 .ipad-dimensions {
@@ -39,8 +54,8 @@ body {
     margin-left: auto;
     margin-right:auto;
     
-    width:606px;
-    height:545px;
+    width:597px;
+    height:552px;
     
     background-color: aqua;
     
@@ -53,20 +68,33 @@ body {
 
 .letter-container{
     width:391px;
-    height:545px;
+    height:552px;
     background-color:magenta;
+    
+    position:relative;
+    right:-42px;
 }
 
 .paragraph-container { 
     width:131px;
-    height:545px;
+    height:552px;
     
     position:relative;
     top:-3%;
+    left:-42px;
     
     background-color: yellow;
 }
 
+.spacer{
+    width:606px;
+    height:41px;
+    
+    background-color: black;
+    
+    position:relative;
+    left:81px;
+}
 
 .footer-container{
     margin-left: auto;
@@ -85,13 +113,29 @@ body {
 .bio-container{
     width:104px;
     height:157px;
+    
+    position: relative;
+    top:58px;
+    left:-143px;
+    
     background-color: darkorange;
 }
 
 .sources-container{
     width:212px;
     height:157px;
+    
+    position: relative;
+    top:58px;
+    right:-100px;
+    
     background-color: darkmagenta;
+}
+
+.footer {
+    height:60px;
+    background-color: aquamarine;
+    
 }
 
 /* Fonts **/

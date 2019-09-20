@@ -1,27 +1,14 @@
+/** Wireframe**/
+
 body {
-    background-color: lightgoldenrodyellow;
+    background-color: chocolate;
     font-family: "Open Sans Condensed", sans-serif;
     color: black;
     margin: 0;
     padding: 0;
 }
 
-.container {
-    width: 768px;
-    height: 1024px;
-    margin: 0;
-    color: black;
-}
 
-.box {
-    margin-left: auto;
-    margin-right:auto;
-    width:491px;
-    background-color: aqua;
-    
-    display: flex;
-    align-items: center;
-}
 
 .header {
     height:60px;
@@ -29,75 +16,130 @@ body {
     
 }
 
-.headline-container{
-    margin-left: 125px;
-    margin-right:auto;
-    width:700px;
-    background-color: blue;
+
+
+.headline-container{    
+    width:408px;
+    height:43px;
+
+    position:relative;
+    left:190.5px;
     
-    display: flex;
-    align-items: center;
+    background-color: blue;
 }
+
+.headline-separator{
+    width:606px;
+    height:38px;
+    
+    position:relative;
+    left:80px;
+    
+    background-color: black;
+}
+
+.ipad-dimensions {
+    width: 768px;
+    height: 1024px;
+    background-color:#FFFFF2;
+    
+    position: absolute;
+    
+    left:25%;
+    
+}
+
+
+.top-grid-box {
+    margin-left: auto;
+    margin-right:auto;
+    
+    width:597px;
+    height:552px;
+    
+    background-color: aqua;
+    
+    display:flex;
+    justify-content: center;
+}
+
 
 /*Letter button*/
 
 .letter-container{
-    width:491px;
-    display: table;
-    align-items:center;
+    width:391px;
+    height:552px;
     background-color:magenta;
-}
-
-h1 {
-    font-size:60px;
     
+    position:relative;
+    right:-42px;
 }
 
-.letter-container h1 {
-    font-size:449px;
-    font-weight:900;
-    margin-left:31.28px;
-    margin-right:13.55px;
-    margin-top:0px;
-    margin-bottom:0px;
+.paragraph-container { 
+    width:131px;
+    height:552px;
+    
+    position:relative;
+    top:-3%;
+    left:-42px;
+    
     background-color: yellow;
-    
 }
 
-.letter-container h5 {
-    margin-top:-60px;
-    margin-left:110px;
-    margin-right:13.55px;
-    background-color: greenyellow;
+.spacer{
+    width:606px;
+    height:41px;
+    
+    background-color: black;
+    
+    position:relative;
+    left:81px;
 }
 
 .footer-container{
-    margin-left: 140px;
-    margin-right: auto;
-    width:660px;
+    margin-left: auto;
+    margin-right:auto;
+    
+    width:606px;
+    height:228px;
+    
     display:flex;
-    align-items:center;
+    justify-content: center;
+    
     background-color: palevioletred;
     
 }
 
 .bio-container{
-    margin-top:20px;
-    display:table;
-    align-items: baseline;
+    width:104px;
+    height:157px;
+    
+    position: relative;
+    top:58px;
+    left:-143px;
+    
     background-color: darkorange;
 }
 
 .sources-container{
-    margin-top:20px;
-    margin-left:200px;
-    margin-right:300px;
-    display:table;
-    align-items: baseline;
+    width:212px;
+    height:157px;
+    
+    position: relative;
+    top:58px;
+    right:-100px;
+    
     background-color: darkmagenta;
 }
 
+.footer {
+    height:60px;
+    background-color: aquamarine;
+    
+}
+
 /* Fonts **/
+
 .acumin-light {
     font-family: acumin-pro-condensed, sans-serif;
     font-weight: 100;
@@ -109,3 +151,8 @@ h1 {
     font-weight: 700;
     font-style: normal;
 }
+
+h3{
+    font-size: 24px;
+}
+
