@@ -35,7 +35,7 @@ body {
     position:relative;
     left:80px;
     
-    background-color: black;
+    /*background-color: greenyellow;*/
 }
 
 .ipad-dimensions {
@@ -57,7 +57,7 @@ body {
     width:597px;
     height:552px;
     
-    /**background-color: aqua;**/
+    /*background-color: aqua;*/
     
     display:flex;
     justify-content: center;
@@ -68,14 +68,17 @@ body {
 
 .letter-container{
     width:391px;
-    height:552px;
-    /**background-color:magenta;**/
+    height:540px;
+    /*background-color:magenta;*/
+    
+    /**https://www.w3schools.com/cssref/pr_border.asp**/
+    border: 1px solid black;
     
     display: flex;
     justify-content: center;
     
     position:relative;
-    right:-42px;
+    right:-37px;
 }
 
 .letter-container h1{
@@ -119,24 +122,52 @@ body {
 }
 
 .paragraph-container { 
-    width:131px;
+    width:109px;
     height:552px;
+    
+    /**https://www.w3schools.com/cssref/pr_text_letter-spacing.asp**/
+    word-spacing: 5px;
     
     position:relative;
     top:-3%;
     left:-42px;
     
-    background-color: yellow;
+    /**background-color: yellow;**/
 }
 
 .spacer{
     width:606px;
     height:41px;
     
-    background-color: black;
+    /**background-color: greenyellow;**/
     
     position:relative;
     left:81px;
+}
+
+.button{
+    width:102px;
+    height:23px;
+    
+    background-color:white;
+    
+    /**https://www.w3schools.com/cssref/pr_border.asp**/
+    border: 1px solid black;
+    
+    /**https://www.w3schools.com/cssref/css3_pr_box-shadow.asp**/
+    box-shadow: 1px 1px 0 black;
+    
+    position: relative;
+    top:0px;
+    right:-487px;
+    
+    /**https://www.w3schools.com/cssref/pr_font_weight.asp**/
+    
+    font-weight:bold;
+    font-size: 14px;
+    color: #AD9429;
+    text-align: center;
+    
 }
 
 .footer-container{
