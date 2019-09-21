@@ -57,7 +57,7 @@ body {
     width:597px;
     height:552px;
     
-    background-color: aqua;
+    /**background-color: aqua;**/
     
     display:flex;
     justify-content: center;
@@ -69,10 +69,53 @@ body {
 .letter-container{
     width:391px;
     height:552px;
-    background-color:magenta;
+    /**background-color:magenta;**/
+    
+    display: flex;
+    justify-content: center;
     
     position:relative;
     right:-42px;
+}
+
+.letter-container h1{
+    font-size:400px;
+    color:#CBC283;
+    
+    text-shadow: -1px 1px 0 #DCE081;
+    
+    height:400px;
+    
+    position:absolute;
+    top:-350px;
+    left:150px;
+}
+
+.letter-container h2{
+    font-size:45px;
+    text-align: center;
+    
+    width:374px;
+    height:122px;
+    
+    position: absolute;
+    top:350px;
+    left:7px;
+    
+    color:#FFFFF2;
+    
+    /**
+    
+    https://www.geeksforgeeks.org/css-font-border/
+    
+    **/
+    
+    text-shadow: -1px 1px 0 #AD9429, 
+                  1px -1px 0 #AD9429, 
+                  -1px 1px 0 #AD9429,
+                  1px -1px 0 #AD9429;
+         
+    align-content: center;
 }
 
 .paragraph-container { 
@@ -155,4 +198,3 @@ body {
 h3{
     font-size: 24px;
 }
-

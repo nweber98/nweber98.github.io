@@ -86,6 +86,7 @@ body {
     background-color: yellow;
 }
 
+
 .spacer{
     width:606px;
     height:41px;
@@ -94,6 +95,16 @@ body {
     
     position:relative;
     left:81px;
+}
+
+.button{
+    width:102px;
+    height:23px;
+    
+    background-color:powderblue;
+    
+    position: relative;
+    right:-504px;
 }
 
 .footer-container{
