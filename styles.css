@@ -1,0 +1,133 @@
+body{
+    background-color: lavender;
+    
+    width:auto;
+    height: auto;
+    
+    display:flex;
+    justify-content: center; 
+}
+
+.container{
+    position:relative;
+    left:25%;
+}
+
+.body-content{
+    height:500px;
+    width:600px;
+    background-color: lightpink;
+    
+    display:flex;
+    justify-content: center;
+    
+    position:relative;
+    left:-100px;
+    
+}
+
+.project-one{
+    
+    width:300px;
+    display: flex;
+    
+}
+
+.project-one h2{
+    
+    position: relative;
+    left:12.5%;
+}
+
+.p1-content{
+    position: relative;
+    left:15%;
+}
+
+.plain-html{
+    width:200px;
+    height:60px;
+    
+    background-color: lightgoldenrodyellow;
+    
+    border: 5px solid lightgreen;
+}
+
+.plain-html h5{
+    
+    position: relative;
+    top:0%;
+    left:35%;
+}
+
+.wireframe{
+    width:200px;
+    height:60px;
+    
+    position:relative;
+    top:15px;
+    
+    background-color: lightgoldenrodyellow;
+    border: 5px solid lightgreen;
+    
+}
+
+.wireframe h5{
+    
+    position: relative;
+    top:0%;
+    left:20%;
+}
+
+.final-site{
+    width:200px;
+    height:60px;
+    
+    position:relative;
+    top:30px;
+    
+    background-color: lightgoldenrodyellow;
+    border: 5px solid lightgreen;
+    
+}
+
+.final-site h5{
+    
+    position: relative;
+    top:0%;
+    left:35%;
+}
+
+.exercise-three{
+    width:300px;
+    background-color: lightcyan;
+    
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.exercise-three h2 {
+    position: relative;
+    left:35%;
+}
+
+.froggies-code{
+    width:200px;
+    height:60px;
+    
+    position:relative;
+    top:0px;
+    left:60px;
+    
+    background-color: lightgoldenrodyellow;
+    border: 5px solid lightgreen;
+    
+}
+
+.froggies-code h5{
+    
+    position: relative;
+    top:0%;
+    left:20%;
+}
