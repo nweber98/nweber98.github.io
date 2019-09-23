@@ -121,6 +121,19 @@ body {
     align-content: center;
 }
 
+.letter-container img{
+    position:absolute;
+    z-index:99;
+    top: 17%;
+    left: 40%;
+    visibility: hidden;
+}
+
+.letter-container img.visible {
+    visibility: visible;
+    
+}
+
 .paragraph-container { 
     width:109px;
     height:552px;
