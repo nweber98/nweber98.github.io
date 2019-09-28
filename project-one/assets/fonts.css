@@ -105,8 +105,8 @@ body {
     
     text-shadow: -1px 1px 0 #DCE081;
     
-    height:298px;
-    width:97.5px;
+    height:292px;
+    width:92px;
     
     margin:0;
     padding: 0;
@@ -151,7 +151,7 @@ body {
     z-index:99;
     top: -210px;
     left: 217px;
-    visibility: visible;
+    visibility: hidden;
 }
 
 .letter-container img.visible {
