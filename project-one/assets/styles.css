@@ -44,10 +44,10 @@ body {
     height: 1024px;
     background-color:#FFFFF2;
     
-    /**https://www.w3schools.com/cssref/pr_border.asp**/
+    /**Source: W3Schools**/
     border: 2px solid #D1C45E;
     
-    /**https://www.w3schools.com/cssref/css3_pr_box-shadow.asp**/
+    /**Source: W3Schools**/
     box-shadow: 1px 1px 0 #D1C45E;
               
     
@@ -89,7 +89,7 @@ body {
     height:540px;
     /*background-color:magenta;*/
     
-    /**https://www.w3schools.com/cssref/pr_border.asp**/
+    /**Source: w3schools**/
     border: 1px solid black;
     
     display: flex;
@@ -134,7 +134,7 @@ body {
     
     /**
     
-    https://www.geeksforgeeks.org/css-font-border/
+    Source: Geeks for Geeks
     
     **/
     
@@ -163,7 +163,7 @@ body {
     width:109px;
     height:552px;
     
-    /**https://www.w3schools.com/cssref/pr_text_letter-spacing.asp**/
+    /**Source: w3schools **/
     font-size: 17px;
     word-spacing: 5px;
     
@@ -190,17 +190,17 @@ body {
     
     background-color:white;
     
-    /**https://www.w3schools.com/cssref/pr_border.asp**/
+    /**Source: w3schools**/
     border: 1px solid black;
     
-    /**https://www.w3schools.com/cssref/css3_pr_box-shadow.asp**/
+    /**Source: w3schools**/
     box-shadow: 1px 1px 0 black;
     
     position: relative;
     top:0px;
     right:-487px;
     
-    /**https://www.w3schools.com/cssref/pr_font_weight.asp**/
+    /**Source: w3schools**/
     
     font-weight:bold;
     font-size: 14px;
@@ -209,7 +209,7 @@ body {
     
 }
 
-/*https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_hr_default_css*/
+/*Source: w3schools*/
 
 hr { 
     display: block;
@@ -257,7 +257,7 @@ hr {
     left: 25%;
 }
 
-/*https://www.geeksforgeeks.org/how-to-make-a-vertical-line-using-html/*/
+/*Source: Geeks for Geeks*/
 .vertical { 
             border-left: 1px solid black; 
             height: 189px; 
@@ -300,3 +300,29 @@ hr {
 h3{
     font-size: 24px;
 }
+
+/**
+
+Works Cited:
+
+
+Katiyar, Pranchal. “How to Make a Vertical Line Using HTML ?” GeeksforGeeks, 19 Feb. 2019, www.geeksforgeeks.org/how-to-make-a-vertical-line-using-html/.
+
+riarawal99. “CSS: Font Border.” GeeksforGeeks, 4 Apr. 2019, www.geeksforgeeks.org/css-font-border/.
+
+w3schools. “CSS Border Property.” CSS Border Property, www.w3schools.com/cssref/pr_border.asp.
+
+w3schools. “CSS Box-Shadow Property.” CSS Box-Shadow Property, www.w3schools.com/cssref/css3_pr_box-shadow.asp.
+
+w3schools. “CSS Font-Weight Property.” CSS Font-Weight Property, www.w3schools.com/cssref/pr_font_weight.asp.
+
+w3schools. “CSS Letter-Spacing Property.” CSS Letter-Spacing Property, www.w3schools.com/cssref/pr_text_letter-spacing.asp.
+w3schools. “Hr Default Css.” Tryit Editor v3.6, 
+
+www.w3schools.com/tags/tryit.asp?filename=tryhtml_hr_default_css.
+w3schools. “w3schools Hr Default Css.” Tryit Editor v3.6, 
+
+www.w3schools.com/tags/tryit.asp?filename=tryhtml_hr_default_css.
+
+
+**/
