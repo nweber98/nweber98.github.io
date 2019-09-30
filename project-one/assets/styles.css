@@ -12,7 +12,6 @@ body {
 
 .header {
     height:60px;
-    background-color: aquamarine;
     
 }
 
@@ -26,7 +25,6 @@ body {
     top:0px;
     left:100px;
     
-    /*background-color: blue;*/
 }
 
 .headline-separator{
@@ -36,7 +34,6 @@ body {
     position:relative;
     left:80px;
     
-    /*background-color: greenyellow;*/
 }
 
 .ipad-dimensions {
@@ -52,7 +49,6 @@ body {
               
     
     position: relative;
-    
     left:25%;
     
 }
@@ -68,27 +64,21 @@ body {
 }
 
 
-.top-grid-box {
-    /*margin-left: auto;
-    margin-right:auto;*/
-    
+.top-grid-box {    
     width:597px;
     height:552px;
-    
-    /*background-color: aqua;*/
     
     display:flex;
     justify-content: center;
 }
 
 
-/*Letter button*/
+
 
 .letter-container{
     width:391px;
     height:540px;
-    /*background-color:magenta;*/
-    
+     
     /**Source: w3schools**/
     border: 1px solid black;
     
@@ -170,15 +160,12 @@ body {
     position:relative;
     top:-3%;
     left:-42px;
-    
-    /**background-color: yellow;**/
+
 }
 
 .spacer{
     width:606px;
     height:41px;
-    
-    /*background-color: greenyellow;*/
     
     position:relative;
     left:-5px;
@@ -232,10 +219,7 @@ hr {
     
     display:flex;
     justify-content: center;
-    
-    /*background-color: aquamarine;*/
-    
-    
+
 }
 
 .bio-container{
