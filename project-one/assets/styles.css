@@ -2,7 +2,7 @@
 
 body {
     background-color:aliceblue;
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: "Open Sans Condensed", "Open Sans", sans-serif; 
     color: black;
     margin: 0;
     padding: 0;
@@ -20,6 +20,8 @@ body {
 .headline-container{    
     width:408px;
     height:43px;
+    
+    font-family: "Open Sans";
 
     position:relative;
     top:0px;
@@ -58,8 +60,10 @@ body {
     margin-top:50px;
     margin-bottom: 73px;
     
-    margin-left:90px;
+    margin-left:83px;
     margin-right: 83px;
+    
+    
     
 }
 
@@ -93,7 +97,7 @@ body {
     font-size:400px;
     color:#CBC283;
     
-    text-shadow: -1px 1px 0 #DCE081;
+    font-weight: normal;
     
     height:292px;
     width:92px;
@@ -118,20 +122,8 @@ body {
     top:350px;
     left:-45px;
     
-    color:#FFFFF2;
-    
-    
-    
-    /**
-    
-    Source: Geeks for Geeks
-    
-    **/
-    
-    text-shadow: -1px 1px 0 #AD9429, 
-                  1px -1px 0 #AD9429, 
-                  -1px 1px 0 #AD9429,
-                  1px -1px 0 #AD9429;
+    color:#CBC283;
+    font-weight:normal;
          
     align-content: center;
 }
@@ -139,7 +131,7 @@ body {
 .letter-container img{
     position:relative;
     z-index:99;
-    top: -210px;
+    top: -212px;
     left: 217px;
     visibility: hidden;
 }
@@ -150,25 +142,22 @@ body {
 }
 
 .paragraph-container { 
-    width:109px;
     height:552px;
-    
-    /**Source: w3schools **/
-    font-size: 17px;
-    word-spacing: 5px;
+
+    font-size: 18px;
     
     position:relative;
     top:-3%;
-    left:-42px;
+    left:0px;
 
 }
 
 .spacer{
-    width:606px;
+    width:768px;
     height:41px;
     
     position:relative;
-    left:-5px;
+    left:-84px;
 }
 
 #button{
@@ -185,7 +174,7 @@ body {
     
     position: relative;
     top:0px;
-    right:-487px;
+    right:-615px;
     
     /**Source: w3schools**/
     
@@ -203,9 +192,9 @@ hr {
 
     position: relative;
     top:8px;
-    left:0px;
+    left:-10px;
       
-    width:585px;
+    width:645px;
     border-style: inset;
     border-width: 1px;
 }
@@ -227,7 +216,7 @@ hr {
     height:157px;
     
     position: relative;
-    top:58px;
+    top:45px;
     left:-135px;
     
     
@@ -235,10 +224,11 @@ hr {
 
 .bio-container h6{
     text-align: center;
+    font-size:16px;
     
     position: absolute;
     top:50%;
-    left: 25%;
+    left: 0%;
 }
 
 /*Source: Geeks for Geeks*/
@@ -255,10 +245,32 @@ hr {
     height:157px;
     
     position: relative;
-    top:35px;
+    top:10px;
     right:-50px;
     
     
+}
+
+.sources-container h5{
+    font-size:17px;
+    display: flex;
+    justify-content:center;
+}
+
+.source-one{
+    font-size:16px;
+    
+    position: relative;
+    top:0px;
+    left:-75px;
+}
+
+.source-two{
+   font-size:16px;
+    
+    position: relative;
+    top:-105px; 
+    left:150px;
 }
 
 .footer {
