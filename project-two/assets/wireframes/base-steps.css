@@ -1,0 +1,117 @@
+/** Wireframe**/
+
+body {
+    background-color: aliceblue;
+    font-family: "Open Sans Condensed", sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.ipad-dimensions {
+    width: 768px;
+    height: 1024px;
+    background-color:red;
+    
+    position: relative;
+    
+    left:20%;
+    
+}
+
+.title-container{
+    width:159px;
+    height:100px;
+    
+    position: absolute;
+    left: 40%;
+    top:75px;
+    
+    background-color: lightgray;
+}
+
+.all-steps{
+    width:636px;
+    height:266px;
+    
+    position: relative;
+    left:65px;
+    top:140px;
+    
+    background-color: yellow;
+}
+
+.follower-steps img{
+    visibility: visible;
+}
+
+.leader-steps{
+    
+}
+
+.arrow-button-right{
+    width:86px;
+    height: 77px;
+    
+    position: absolute;
+    left:667px;
+    top:470px;
+    
+    background-color: aquamarine;
+}
+
+.arrow-button-left{
+    width:86px;
+    height: 77px;
+    
+    position: absolute;
+    left:32px;
+    top:470px;
+    
+    background-color: aquamarine;
+}
+
+
+.button-one{
+    width:96px;
+    height:43px;
+    
+    position:absolute;
+    top:954px;
+    left:128px;
+    
+    background-color: yellow;
+}
+
+.button-two{
+    width:96px;
+    height:43px;
+    
+    position:absolute;
+    top:954px;
+    left:268px;
+    
+    background-color: yellow;
+}
+
+.button-three{
+    width:96px;
+    height:43px;
+    
+    position:absolute;
+    top:954px;
+    left:408px;
+    
+    background-color: yellow;
+}
+
+.button-four{
+    width:96px;
+    height:43px;
+    
+    position:absolute;
+    top:954px;
+    left:548px;
+    
+    background-color: yellow;
+}
