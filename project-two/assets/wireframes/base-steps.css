@@ -49,6 +49,28 @@ body {
     
 }
 
+.follower-button{
+    width:128px;
+    height:48px;
+    
+    position: absolute;
+    left:192px;
+    top:418px;
+    
+    background-color: hotpink;
+}
+
+.leader-button{
+    width:128px;
+    height:48px;
+    
+    position: absolute;
+    left:456px;
+    top:418px;
+    
+    background-color: skyblue;
+}
+
 .arrow-button-right{
     width:86px;
     height: 77px;
@@ -69,6 +91,61 @@ body {
     top:470px;
     
     background-color: aquamarine;
+}
+
+.follower-instructions{
+    width:187px;
+    height:215px;
+    
+    position:absolute;
+    left:160px;
+    top:558px;
+    
+    background-color: hotpink;
+}
+
+.leader-instructions{
+    width:187px;
+    height:215px;
+    
+    position:absolute;
+    left:432px;
+    top:558px;
+    
+    background-color: skyblue;
+}
+
+.previous-step{
+    width:92px;
+    height:46px;
+    
+    position: absolute;
+    left:222px;
+    top:841px;
+    
+    background-color: aqua;
+}
+
+.play{
+    width:64px;
+    height:46px;
+    
+    position: absolute;
+    left:344px;
+    top:841px;
+    
+    background-color: aqua;
+}
+
+.next-step{
+    width:92px;
+    height:46px;
+    
+    position: absolute;
+    left:432px;
+    top:841px;
+    
+    background-color: aqua;
 }
 
 
