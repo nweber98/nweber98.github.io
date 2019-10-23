@@ -1,0 +1,119 @@
+/** Wireframe**/
+
+body {
+    background-color: aliceblue;
+    font-family: sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.ipad-dimensions {
+    width: 768px;
+    height: 1024px;
+    background-color:red;
+    
+    position: relative;
+    
+    left:20%;
+    
+}
+
+.title-container{
+    width:209px;
+    height:72px;
+    
+    position: absolute;
+    left:280px;
+    top:29px;
+    
+    background-color: lightgray;
+}
+
+.photo{
+    width:768px;
+    height:511px;
+    
+    position:absolute;
+    top:105px;
+    
+    background-color: maroon;
+}
+
+.history-of-salsa-title{
+    height: 45px;
+    width:325px;
+    
+    position: absolute;
+    top:677px;
+    left:81px;
+    
+    background-color:aquamarine;
+}
+
+.history-of-salsa-paragraph{
+    position: absolute;
+    top:732px;
+    left:81px;
+    
+    width:550px;
+    height:142px;
+    
+    background-color: aquamarine;
+}
+
+.arrow-button{
+    width:44px;
+    height:48px;
+    
+    position: absolute;
+    top:775px;
+    left:667px;
+    
+    background-color: aquamarine;
+}
+
+.button-one{
+    
+    font-family: 'Great Vibes', 'cursive';
+    font-size: 27px;
+    
+    position: absolute;
+    top:959px;
+    left:73px;
+
+}
+
+.button-two{
+    
+    font-family: 'Great Vibes', 'cursive';
+    font-size: 27px;
+    
+    position: absolute;
+    top:959px;
+    left:236.25px;
+
+}
+
+.button-three{
+    
+    font-family: 'Great Vibes', 'cursive';
+    font-size: 27px;
+    
+    position: absolute;
+    top:959px;
+    left:389.5px;
+
+}
+
+.button-four{
+    
+    font-family: 'Great Vibes', 'cursive';
+    font-size: 27px;
+    
+    position: absolute;
+    top:959px;
+    left:575px;
+
+}
+

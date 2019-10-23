@@ -15,17 +15,22 @@ body {
     
     position: relative;
     
-    left:20%;
+    left:15%;
     
 }
 
 .title-container{
-    width:159px;
+    width:237px;
     height:100px;
     
+    
+    
     position: absolute;
-    left: 40%;
-    top:75px;
+    left:280px;
+    top:50px;
+    
+    font-family:'Great Vibes', 'cursive';
+    font-size:27px;
     
     background-color: lightgray;
 }
@@ -41,7 +46,7 @@ body {
     background-color: yellow;
 }
 
-.rotate-fleft{
+.rotate-lleft{
     /*https://stackoverflow.com/questions/20061774/rotate-an-image-in-image-source-in-html*/
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -52,36 +57,36 @@ body {
     position:absolute;
     top:-40px;
     left:185px;
-}
-
-.rotate-fright{
-    /*https://stackoverflow.com/questions/20061774/rotate-an-image-in-image-source-in-html*/
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    
-    position:absolute;
-    top:20px;
-    left:185px;
-}
-
-.rotate-lleft{
-    /*https://stackoverflow.com/questions/20061774/rotate-an-image-in-image-source-in-html*/
-    -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
-    
-    position:absolute;
-    top:20px;
-    left:375px;
 }
 
 .rotate-lright{
     /*https://stackoverflow.com/questions/20061774/rotate-an-image-in-image-source-in-html*/
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    
+    position:absolute;
+    top:20px;
+    left:185px;
+}
+
+.rotate-fleft{
+    /*https://stackoverflow.com/questions/20061774/rotate-an-image-in-image-source-in-html*/
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    
+    position:absolute;
+    top:20px;
+    left:375px;
+}
+
+.rotate-fright{
+    /*https://stackoverflow.com/questions/20061774/rotate-an-image-in-image-source-in-html*/
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
     -o-transform: rotate(270deg);
@@ -93,7 +98,7 @@ body {
     left:375px;
 }
 
-.follower-button{
+.leader-button{
     width:128px;
     height:48px;
     
@@ -104,7 +109,7 @@ body {
     background-color: hotpink;
 }
 
-.leader-button{
+.follower-button{
     width:128px;
     height:48px;
     
@@ -181,7 +186,7 @@ body {
     background-color: aqua;
 }
 
-.next-step{
+#next-step{
     width:92px;
     height:46px;
     
@@ -194,45 +199,52 @@ body {
 
 
 .button-one{
-    width:96px;
-    height:43px;
     
-    position:absolute;
-    top:954px;
-    left:128px;
+    font-family: 'Great Vibes', 'cursive';
+    font-size: 27px;
     
-    background-color: yellow;
+    position: absolute;
+    top:959px;
+    left:73px;
+
 }
 
 .button-two{
-    width:96px;
-    height:43px;
     
-    position:absolute;
-    top:954px;
-    left:268px;
+    font-family: 'Great Vibes', 'cursive';
+    font-size: 27px;
     
-    background-color: yellow;
+    position: absolute;
+    top:959px;
+    left:236.25px;
+
 }
 
 .button-three{
-    width:96px;
-    height:43px;
     
-    position:absolute;
-    top:954px;
-    left:408px;
+    font-family: 'Great Vibes', 'cursive';
+    font-size: 27px;
     
-    background-color: yellow;
+    position: absolute;
+    top:959px;
+    left:389.5px;
+
 }
 
 .button-four{
-    width:96px;
-    height:43px;
     
-    position:absolute;
-    top:954px;
-    left:548px;
+    font-family: 'Great Vibes', 'cursive';
+    font-size: 27px;
     
-    background-color: yellow;
+    position: absolute;
+    top:959px;
+    left:575px;
+
 }
+
+/*https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_queue_all
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_form_steps
+
+
+*/

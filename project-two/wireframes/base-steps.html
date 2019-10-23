@@ -4,8 +4,13 @@
 
 <head>
     <title>Learn to dance salsa</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="base-steps.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script src="steps-animation.jquery.js"></script>
           
 </head>
 
@@ -17,14 +22,6 @@
         
         <div class="all-steps">
         
-            <div class="rotate-fleft">
-                <img id="follower-left" src="follower-left.svg" width="100px" height="229px" alt="follower-left">
-            </div>
-            
-            <div class="rotate-fright">
-                <img id="follower-right" src="follower-right.svg" width="100px" height="229px" alt="follower-right">
-            </div>
-            
             <div class="rotate-lleft">
                 <img id="leader-left" src="leader-left.svg" width="100px" height="229px" alt="leader-left">
             </div>
@@ -33,10 +30,18 @@
                 <img id="leader-right" src="leader-right.svg" width="100px" height="229px" alt="leader-right">
             </div>
             
+            <div class="rotate-fleft">
+                <img id="follower-left" src="follower-left.svg" width="100px" height="229px" alt="follower-left">
+            </div>
+            
+            <div class="rotate-fright">
+                <img id="follower-right" src="follower-right.svg" width="100px" height="229px" alt="follower-right">
+            </div>
+            
         </div>
         
-        <div class="follower-button"></div>
         <div class="leader-button"></div>
+        <div class="follower-button"></div>
         
         <div class="arrow-button-left"></div>
         <div class="arrow-button-right"></div>
@@ -44,14 +49,14 @@
         <div class="follower-instructions"></div>
         <div class="leader-instructions"></div>
         
-        <div class="previous-step"></div>
-        <div class="play"></div>
-        <div class="next-step"></div>
+        <div class="previous-step">Previous Step</div>
+        <div class="play">Play</div>
+        <div id = "next-step">Next Step</div>
         
-        <div class="button-one"></div>
-        <div class="button-two"></div>
-        <div class="button-three"></div>
-        <div class="button-four"></div>
+        <div class="button-one">Home</div>
+        <div class="button-two">Side Steps</div>
+        <div class="button-three">Mixed Steps</div>
+        <div class="button-four">Songs</div>
     </div>
 </body>
 
