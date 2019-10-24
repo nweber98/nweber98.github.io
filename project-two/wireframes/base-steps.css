@@ -166,38 +166,39 @@ body {
 
 
 .buttons{
+
     
 }
 
-.buttons previous-step{
-    width:92px;
-    height:46px;
+#previous-step{
+    width: 149px;
+    height:54px;
     
     position: absolute;
-    left:222px;
-    top:841px;
+    left:161px;
+    top:840px;
     
     background-color: aqua;
 }
 
-.buttons play{
-    width:64px;
-    height:46px;
+#play{
+    width:93px;
+    height:54px;
     
     position: absolute;
-    left:344px;
-    top:841px;
+    left:333px;
+    top:840px;
     
     background-color: aqua;
+    
 }
 
-.buttons next-step{
-    width:92px;
-    height:46px;
-    
+#next-step{
+    width:149px;
+    height:54px;
     position: absolute;
-    left:432px;
-    top:841px;
+    left:449px;
+    top:840px;
     
     background-color: aqua;
 }
