@@ -164,7 +164,12 @@ body {
     background-color: skyblue;
 }
 
-.previous-step{
+
+.buttons{
+    
+}
+
+.buttons previous-step{
     width:92px;
     height:46px;
     
@@ -175,7 +180,7 @@ body {
     background-color: aqua;
 }
 
-.play{
+.buttons play{
     width:64px;
     height:46px;
     
@@ -186,7 +191,7 @@ body {
     background-color: aqua;
 }
 
-#next-step{
+.buttons next-step{
     width:92px;
     height:46px;
     

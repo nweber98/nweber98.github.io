@@ -2,95 +2,34 @@
 //https://codepen.io/juliogcampos/pen/BzdjwY
 
 //https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_form_steps
-//
+//https://stackoverflow.com/questions/14408891/getelementbyid-multiple-ids
+
+//  button.innerHTML = "Click me: " + count;
+//var nextstep = document.getElementById("next-step"),
+//var previousstep = document.getElementById("previous-step"),
+//https://javascript.info/searching-elements-dom
+//var steps = document.querySelectorAll(".previous-step", ".next-step")
+//https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_queryselectorall_class
 
 $(document).ready(function(){
     
-var button = document.getElementById("next-step"),
-  count = 0;
-button.onclick = function() {
-  count += 1;
-  button.innerHTML = "Click me: " + count;
-
-  if (count == 1){
-    $(".rotate-lleft").animate({
-        left: '255px',
-    });
-
-    $(".rotate-fright").animate({
-        left: '445px',
-    });
-  }
+//https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_document_queryselectorall_class
+var x = document.querySelectorAll(".buttons");
     
-   if (count == 2){
-    $(".rotate-lleft").animate({
-        left: '185px',
-    });
+var countnext = 0;
+var countprevious = 0;
 
-    $(".rotate-fright").animate({
-        left: '375px',
-    });
-  }
+var previousstep = x[0];
+var nextstep = x[2];
 
-  if (count == 3){
-    $(".rotate-lleft").animate({
-        left: '115px',
-    });
+nextstep.onclick = function() {
+  countnext += 1;
+  nextstep.innerHTML = "click me " + countnext;
+}
 
-    $(".rotate-fright").animate({
-        left: '305px',
-    });
-  }
-  if (count == 4){
-    $(".rotate-lleft").animate({
-        left: '185px',
-    });
-
-    $(".rotate-fright").animate({
-        left: '375px',
-    });
-  }
-
-    if (count == 5){
-    $(".rotate-lright").animate({
-        left: '115px',
-    });
-
-    $(".rotate-fleft").animate({
-        left: '305px',
-    });
-  }
-    
-   if (count == 6){
-    $(".rotate-lright").animate({
-        left: '185px',
-    });
-
-    $(".rotate-fleft").animate({
-        left: '375px',
-    });
-  }
-
-  if (count == 7){
-    $(".rotate-lright").animate({
-        left: '255px',
-    });
-
-    $(".rotate-fleft").animate({
-        left: '445px',
-    });
-  }
-  if (count == 8){
-    $(".rotate-lright").animate({
-        left: '185px',
-    });
-
-    $(".rotate-fleft").animate({
-        left: '375px',
-    });
-      
-    count = 0;
-  }
-};
+previousstep.onclick = function() {
+  countprevious += 1;
+  previousstep.innerHTML = "click me " + countprevious;
+}
 
 });
