@@ -48,25 +48,14 @@ body {
     background-color: chartreuse;
 }
 
-.luis-enrique{
+#music-button{
     height:175px;
     width:175px;
     
     background-color:yellow;
 }
 
-.music-button{
-    height:175px;
-    width:175px;
-    
-    background-color:yellow;
-}
-
-#luis-enrique{
-    visibility: visible;
-}
-
-#luis-enrique hidden{
+.invisible{
     visibility: hidden;
 }
 

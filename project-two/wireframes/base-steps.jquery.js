@@ -17,10 +17,86 @@ $(document).ready(function(){
 var x = document.querySelectorAll(".buttons");
     
 var countnext = 0;
-var countprevious = 0;
+var countplay  = 0;
 
 var previousstep = x[0];
+var player = x[1];
 var nextstep = x[2];
+
+//https://www.w3schools.com/jquery/eff_delay.asp
+    
+player.onclick = function(){
+    
+    $(".rotate-lleft").animate({
+        left: '255px',
+    });
+
+    $(".rotate-fright").animate({
+        left: '445px',
+    });
+    
+    $(".rotate-lleft").animate({
+        left: '185px',
+    });
+
+    $(".rotate-fright").animate({
+        left: '375px',
+    });
+    
+    $(".rotate-lleft").animate({
+        left: '115px',
+    });
+
+    $(".rotate-fright").animate({
+        left: '305px',
+    });
+    
+    $(".rotate-lleft").animate({
+        left: '185px',
+    });
+
+    $(".rotate-fright").animate({
+        left: '375px',
+    });
+        countplay +=1;
+
+    $(".rotate-lright").delay(2000).animate({
+        left: '255px',
+    });
+
+    $(".rotate-fleft").delay(2000).animate({
+        left: '445px',
+    });
+    
+    $(".rotate-lright").animate({
+        left: '185px',
+    });
+
+    $(".rotate-fleft").animate({
+        left: '375px',
+    }); 
+    
+    $(".rotate-lright").animate({
+        left: '115px',
+    });
+
+    $(".rotate-fleft").animate({
+        left: '305px',
+    });
+    
+    $(".rotate-lright").animate({
+        left: '185px',
+    });
+
+    $(".rotate-fleft").animate({
+        left: '375px',
+    }); 
+    
+    
+    
+}
+
+
 
 nextstep.onclick = function() {
   countnext += 1;
@@ -109,7 +185,6 @@ nextstep.onclick = function() {
 }
 
 previousstep.onclick = function() {
-  countprevious += 1;
     
   if (countnext == 0){
         $(".rotate-lright").animate({
