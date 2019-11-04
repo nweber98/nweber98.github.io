@@ -118,26 +118,34 @@ body {
     background-color: skyblue;
 }
 
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_triangle-right*/
+
 .arrow-button-right{
-    width:86px;
-    height: 77px;
+    width: 0;
+	height: 0;
+	border-top: 12.5px solid transparent;
+	border-left: 25px solid #555;
+	border-bottom: 12.5px solid transparent;;
     
     position: absolute;
-    left:667px;
+    left:700px;
     top:470px;
     
-    background-color: aquamarine;
 }
 
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_triangle-left*/
+
 .arrow-button-left{
-    width:86px;
-    height: 77px;
+   	width: 0;
+	height: 0;
+	border-top: 12.5px solid transparent;
+	border-right: 25px solid #555;
+	border-bottom: 12.5px solid transparent;
     
     position: absolute;
     left:32px;
     top:470px;
     
-    background-color: aquamarine;
 }
 
 .follower-instructions{
