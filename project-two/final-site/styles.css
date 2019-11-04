@@ -11,55 +11,47 @@ body {
 .ipad-dimensions {
     width: 768px;
     height: 1024px;
-    background-color:red;
-    
-    position: relative;
-    
-    left:20%;
-    
+    margin: 0 auto;
+    background-color:#CCB6B6;   
 }
 
 .title-container{
-    width:209px;
-    height:72px;
-    
-    position: absolute;
-    left:280px;
-    top:29px;
-    
-    background-color: lightgray;
+    font-family: "Great Vibes";
+    font-size:57px;
+    color:#901313;
+    text-align: center;
+    margin: 0 auto;
+    padding-top:10px;
+    padding-bottom: 10px;
 }
 
-.photo{
-    width:768px;
-    height:511px;
-    
-    position:absolute;
-    top:105px;
-    
-    background-color: maroon;
+.photo-creds{
+    margin-top:0px;
+    font-family:"Merriweather";
+    text-align: right;
+    color:#901313;
 }
 
 .history-of-salsa-title{
-    height: 45px;
-    width:325px;
-    
-    position: absolute;
-    top:677px;
-    left:81px;
-    
-    background-color:aquamarine;
+    font-family: "Merriweather";
+    font-weight: bold;
+    font-style: italic;
+    margin-left:81px;
+    /*https://stackoverflow.com/questions/38205797/how-to-combine-bold-and-italic-in-css#38205861*/
+    color:#901313;
 }
 
 .history-of-salsa-paragraph{
-    position: absolute;
-    top:732px;
-    left:81px;
-    
     width:550px;
-    height:142px;
+    margin-left: 81px;
     
-    background-color: aquamarine;
+    font-family:"Merriweather";
+    font-size:16px;
+    color:#901313;
+}
+
+.history-of-salsa-paragraph a {
+    color:#4F5A65;
 }
 
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_triangle-right*/
@@ -71,51 +63,22 @@ body {
 	border-bottom: 12.5px solid transparent;
         
     position: absolute;
-    left:680px;
-    top:790px;
+    left:825px;
+    top:750px;
 }
 
-.button-one{
+.page-nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.page-nav a{
     
     font-family: 'Great Vibes', 'cursive';
     font-size: 27px;
+    color:#901313;
     
-    position: absolute;
-    top:959px;
-    left:73px;
-
-}
-
-.button-two{
     
-    font-family: 'Great Vibes', 'cursive';
-    font-size: 27px;
-    
-    position: absolute;
-    top:959px;
-    left:236.25px;
-
-}
-
-.button-three{
-    
-    font-family: 'Great Vibes', 'cursive';
-    font-size: 27px;
-    
-    position: absolute;
-    top:959px;
-    left:389.5px;
-
-}
-
-.button-four{
-    
-    font-family: 'Great Vibes', 'cursive';
-    font-size: 27px;
-    
-    position: absolute;
-    top:959px;
-    left:575px;
-
 }
 
