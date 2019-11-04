@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="songs.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_triangle-right-->
+
           
 </head>
 
@@ -17,17 +19,33 @@
         </div>
         
         <div class="music-container"> 
-            <img id="luis-enrique" src="album-covers/luis-enrique.png" width="175px" height="175px" alt="luis-enrique">
+            
+           <!-- <img id="luis-enrique" src="album-covers/luis-enrique.png" width="175px" height="175px" alt="luis-enrique">-->
+            
+            <div class = "music-button">
+                <img id="luis-enrique" src="album-covers/luis-enrique.png" width="175px" height="175px" alt="luis-enrique">
+                <div class="controls" id="showme">
+                <div class="triangle-right" id="play-one"></div>
+                <img id="pause-one" src="assets/pause-button.svg" width="25px" height="25px" alt="pause">
+                <div class="stop" id="stop-one"></div>
+                </div>
+            </div>
+            <!--<img id="luis-enrique" src="album-covers/luis-enrique.png" width="175px" height="175px" alt="luis-enrique">-->
+            
             <img id="celia-cruz" src="album-covers/celia-cruz.png" width="175px" height="175px" alt="celia-cruz">
+            
             <img id="el-gran-varon" src="album-covers/el-gran-varon.png" width="175px" height="175px" alt="el-gran-varon">
+            
             <img id="marc-anthony" src="album-covers/marc-anthony.png" width="175px" height="175px" alt="marc-anthony">
-            <img id="opus" src="album-covers/opus.png" width="175px" height="175px" alt="opus">
+            
+           <img id="opus" src="album-covers/opus.png" width="175px" height="175px" alt="opus">
+            
             <img id="willie-colon" src="album-covers/willie-colon.png" width="175px" height="175px" alt="willie-colon">
 
         </div>
-
-        <div id = "music-button"></div>
     
+        <div class="arrow-button-left"></div>
+        
         <div class="button-one">Base Steps</div>
         <div class="button-two">Side Steps</div>
         <div class="button-three">Mixed Steps</div>

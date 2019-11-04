@@ -3,14 +3,30 @@
 $(document).ready(function() {
     
     var audioElement = document.createElement('audio');
-    audioElement.setAttribute('src','http://www.soundjay.com/misc/sounds/bell-ringing-01.mp3');
+    audioElement.setAttribute('src','assets/yo-no-se-manana.m4a');
 
     $('#luis-enrique').click(function() {
+        $('#luis-enrique').addClass('invisible');
+        $('#showme').addClass('visible');
+    });
+    
+    $('#play-one').click(function() {
         audioElement.play();
     });
+
+    $('#pause-one').click(function() {
+        audioElement.pause();
+    });
+    
+    $('#stop-one').click(function() {
+        audioElement.pause();
+        audioElement.currentTime = 0;
+    });
+    
      });
+
 $(document).ready(function() {
-    $('#music-button').click(function(){
+    $('#celia-cruz').click(function(){
         $('#celia-cruz').addClass('invisible');
     });
     //https://jordanagk.github.io/experiments/assets/fadein-out.jquery.js
