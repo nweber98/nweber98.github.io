@@ -11,26 +11,20 @@ body {
 .ipad-dimensions {
     width: 768px;
     height: 1024px;
-    background-color:red;
+    background-color:#EDDCDC;
     
-    position: relative;
-    
-    left:15%;
+    margin: 0 auto;
     
 }
 
 .title-container{
-    width:237px;
-    height:100px;     
-    
-    position: absolute;
-    left:280px;
-    top:50px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
     font-family:'Great Vibes', 'cursive';
     font-size:27px;
-    
-    background-color: lightgray;
 }
 
 .all-steps{
@@ -39,9 +33,7 @@ body {
     
     position: relative;
     left:65px;
-    top:140px;
-    
-    background-color: yellow;
+    top:-25px;
 }
 
 .rotate-lleft{
@@ -97,25 +89,43 @@ body {
 }
 
 .leader-button{
-    width:128px;
-    height:48px;
+    width:232px;
+    height:54px;
     
     position: absolute;
-    left:192px;
+    left:250px;
     top:418px;
     
-    background-color: hotpink;
+    font-family: "Merriweather";
+    font-size:18px;
+    color:white;
+    
+    background-color: black;
+    
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
 
 .follower-button{
-    width:128px;
-    height:48px;
+    width:232px;
+    height:54px;
     
     position: absolute;
-    left:456px;
+    left:550px;
     top:418px;
     
-    background-color: skyblue;
+    font-family: "Merriweather";
+    font-size:18px;
+    color:#FFFFFF;
+    
+    background-color: #AD1616;
+    
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
 
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_triangle-right*/
@@ -128,7 +138,7 @@ body {
 	border-bottom: 12.5px solid transparent;;
     
     position: absolute;
-    left:700px;
+    left:857px;
     top:470px;
     
 }
@@ -143,20 +153,9 @@ body {
 	border-bottom: 12.5px solid transparent;
     
     position: absolute;
-    left:32px;
+    left:150px;
     top:470px;
     
-}
-
-.follower-instructions{
-    width:187px;
-    height:215px;
-    
-    position:absolute;
-    left:160px;
-    top:558px;
-    
-    background-color: hotpink;
 }
 
 .leader-instructions{
@@ -164,10 +163,40 @@ body {
     height:215px;
     
     position:absolute;
-    left:432px;
+    left:250px;
     top:558px;
     
-    background-color: skyblue;
+        
+    font-family: "Merriweather";
+    font-size:18px;
+    color:#FFFFFF;
+    
+    background-color: black;
+    
+  display: flex;
+  justify-content: center;
+    text-align: center;
+  flex-direction: column;
+}
+
+.follower-instructions{
+    width:187px;
+    height:215px;
+    
+        
+    font-family: "Merriweather";
+    font-size:18px;
+    color:#FFFFFF;
+    
+    position:absolute;
+    left:550px;
+    top:558px;
+    
+      display: flex;
+  justify-content: center;
+  flex-direction: column;
+     text-align:center;
+    background-color: #AD1616;
 }
 
 
@@ -181,10 +210,19 @@ body {
     height:54px;
     
     position: absolute;
-    left:161px;
+    left:300px;
     top:840px;
     
-    background-color: aqua;
+    font-family: "Merriweather";
+    font-size: 18px;
+    color:white;
+    
+    background-color: #555555;
+    
+      display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
 
 #player{
@@ -192,66 +230,55 @@ body {
     height:54px;
     
     position: absolute;
-    left:333px;
+    left:475px;
     top:840px;
     
-    background-color: aqua;
+    font-family: "Merriweather";
+    font-size: 18px;
+    color:white;
     
+    background-color: #555555;
+    
+      display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
 
 #next-step{
     width:149px;
     height:54px;
     position: absolute;
-    left:449px;
+    left:600px;
     top:840px;
     
-    background-color: aqua;
+    font-family: "Merriweather";
+    font-size: 18px;
+    color:white;
+    
+    background-color: #555555;
+    
+      display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
 
 
-.button-one{
-    
-    font-family: 'Great Vibes', 'cursive';
-    font-size: 27px;
-    
-    position: absolute;
-    top:959px;
-    left:73px;
-
+.page-nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top:75px;
+    margin-top:200px;
 }
 
-.button-two{
+.page-nav a{
     
     font-family: 'Great Vibes', 'cursive';
     font-size: 27px;
+    color:#901313;
     
-    position: absolute;
-    top:959px;
-    left:236.25px;
-
-}
-
-.button-three{
     
-    font-family: 'Great Vibes', 'cursive';
-    font-size: 27px;
-    
-    position: absolute;
-    top:959px;
-    left:389.5px;
-
-}
-
-.button-four{
-    
-    font-family: 'Great Vibes', 'cursive';
-    font-size: 27px;
-    
-    position: absolute;
-    top:959px;
-    left:575px;
-
 }
 
 /*https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_queue_all

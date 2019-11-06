@@ -1,9 +1,9 @@
 /** Wireframe**/
 
 body {
-    background-color: aliceblue;
-    font-family: sans-serif;
-    color: black;
+    background-color:#CCB6B6;
+    font-family: "Merriweather";
+    color: #901313;
     margin: 0;
     padding: 0;
 }
@@ -12,42 +12,42 @@ body {
     width: 768px;
     height: 1024px;
     margin: 0 auto;
-    background-color:#CCB6B6;   
+    background-color:#CCB6B6;  
+    
+    position: relative;
 }
 
 .title-container{
     font-family: "Great Vibes";
     font-size:57px;
-    color:#901313;
+    font-weight:normal;
     text-align: center;
     margin: 0 auto;
+    
     padding-top:10px;
     padding-bottom: 10px;
+
 }
 
 .photo-creds{
     margin-top:0px;
-    font-family:"Merriweather";
     text-align: right;
-    color:#901313;
+    
 }
 
 .history-of-salsa-title{
-    font-family: "Merriweather";
     font-weight: bold;
     font-style: italic;
     margin-left:81px;
     /*https://stackoverflow.com/questions/38205797/how-to-combine-bold-and-italic-in-css#38205861*/
-    color:#901313;
+    padding-top:25px;
 }
 
 .history-of-salsa-paragraph{
     width:550px;
     margin-left: 81px;
     
-    font-family:"Merriweather";
     font-size:16px;
-    color:#901313;
 }
 
 .history-of-salsa-paragraph a {
@@ -55,22 +55,23 @@ body {
 }
 
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_triangle-right*/
+
 .arrow-right {
 	width: 0;
 	height: 0;
 	border-top: 12.5px solid transparent;
 	border-left: 25px solid #555;
 	border-bottom: 12.5px solid transparent;
-        
-    position: absolute;
-    left:825px;
+    
+    position:absolute;
+    right:75px;
     top:750px;
 }
 
 .page-nav{
     display: flex;
     justify-content: space-around;
-    
+    padding-top:75px;
 }
 
 .page-nav a{
