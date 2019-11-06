@@ -2,8 +2,9 @@
 
 body {
     background-color: aliceblue;
-    font-family: "Open Sans Condensed", sans-serif;
-    color: black;
+    font-family: "Merriweather";
+    color: white;
+    font-size:18px;
     margin: 0;
     padding: 0;
 }
@@ -24,6 +25,8 @@ body {
     padding-bottom: 10px;
     
     font-family:'Great Vibes', 'cursive';
+    color:#901313;
+    font-weight: normal;
     font-size:27px;
 }
 
@@ -88,17 +91,16 @@ body {
     left:375px;
 }
 
+.step-headers{
+    display: flex;
+    justify-content:space-around;
+}
+
 .leader-button{
     width:232px;
     height:54px;
-    
-    position: absolute;
-    left:250px;
-    top:418px;
-    
-    font-family: "Merriweather";
+
     font-size:18px;
-    color:white;
     
     background-color: black;
     
@@ -112,13 +114,7 @@ body {
     width:232px;
     height:54px;
     
-    position: absolute;
-    left:550px;
-    top:418px;
-    
-    font-family: "Merriweather";
     font-size:18px;
-    color:#FFFFFF;
     
     background-color: #AD1616;
     
@@ -129,6 +125,45 @@ body {
 }
 
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_triangle-right*/
+
+.instructions{
+    display: flex;
+    justify-content: space-around;
+    margin-top:20px;
+}
+.leader-instructions{
+    width:232px;
+    height:215px;
+    
+
+    font-size:18px;
+    
+    background-color: black;
+    
+  display: flex;
+  justify-content: center;
+    text-align: center;
+  flex-direction: column;
+}
+
+.follower-instructions{
+    width:232px;
+    height:215px;
+    
+    font-size:18px;
+/*
+    
+    position:absolute;
+    left:550px;
+    top:558px;
+*/
+    
+      display: flex;
+  justify-content: center;
+  flex-direction: column;
+     text-align:center;
+    background-color: #AD1616;
+}
 
 .arrow-button-right{
     width: 0;
@@ -158,48 +193,6 @@ body {
     
 }
 
-.leader-instructions{
-    width:187px;
-    height:215px;
-    
-    position:absolute;
-    left:250px;
-    top:558px;
-    
-        
-    font-family: "Merriweather";
-    font-size:18px;
-    color:#FFFFFF;
-    
-    background-color: black;
-    
-  display: flex;
-  justify-content: center;
-    text-align: center;
-  flex-direction: column;
-}
-
-.follower-instructions{
-    width:187px;
-    height:215px;
-    
-        
-    font-family: "Merriweather";
-    font-size:18px;
-    color:#FFFFFF;
-    
-    position:absolute;
-    left:550px;
-    top:558px;
-    
-      display: flex;
-  justify-content: center;
-  flex-direction: column;
-     text-align:center;
-    background-color: #AD1616;
-}
-
-
 .buttons{
 
     
@@ -213,9 +206,6 @@ body {
     left:300px;
     top:840px;
     
-    font-family: "Merriweather";
-    font-size: 18px;
-    color:white;
     
     background-color: #555555;
     
@@ -232,10 +222,7 @@ body {
     position: absolute;
     left:475px;
     top:840px;
-    
-    font-family: "Merriweather";
-    font-size: 18px;
-    color:white;
+
     
     background-color: #555555;
     
@@ -252,9 +239,6 @@ body {
     left:600px;
     top:840px;
     
-    font-family: "Merriweather";
-    font-size: 18px;
-    color:white;
     
     background-color: #555555;
     
