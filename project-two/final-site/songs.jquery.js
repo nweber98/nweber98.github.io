@@ -1,7 +1,5 @@
-//https://stackoverflow.com/questions/8489710/play-an-audio-file-using-jquery-when-a-button-is-clicked
-//https://www.w3schools.com/jsref/dom_obj_audio.asp
 $(document).ready(function() {
-    
+    //https://jordanagk.github.io/experiments/assets/fadein-out.jquery.js
     var audioOne = document.createElement('audio');
     audioOne.setAttribute('src','assets/yo-no-se-manana.m4a');
 
@@ -27,7 +25,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var audioTwo = document.createElement('audio');
-    audioTwo.setAttribute('src','assets/yo-no-se-manana.m4a');
+    audioTwo.setAttribute('src','assets/la-vida-es-un-carnaval.m4a');
     //https://jordanagk.github.io/experiments/assets/fadein-out.jquery.js
     
     $('#celia-cruz').click(function(){
@@ -52,7 +50,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var audioThree = document.createElement('audio');
-    audioThree.setAttribute('src','assets/yo-no-se-manana.m4a');
+    audioThree.setAttribute('src','assets/tu-carinito.m4a');
     //https://jordanagk.github.io/experiments/assets/fadein-out.jquery.js
     
     $('#el-gran-varon').click(function(){
@@ -77,7 +75,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var audioFour = document.createElement('audio');
-    audioFour.setAttribute('src','assets/yo-no-se-manana.m4a');
+    audioFour.setAttribute('src','assets/vivir-mi-vida.m4a');
     //https://jordanagk.github.io/experiments/assets/fadein-out.jquery.js
     
     $('#marc-anthony').click(function(){
@@ -102,7 +100,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var audioFive = document.createElement('audio');
-    audioFive.setAttribute('src','assets/yo-no-se-manana.m4a');
+    audioFive.setAttribute('src','assets/parecen-viernes.m4a');
     //https://jordanagk.github.io/experiments/assets/fadein-out.jquery.js
     
     $('#opus').click(function(){
@@ -127,7 +125,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var audioSix = document.createElement('audio');
-    audioSix.setAttribute('src','assets/yo-no-se-manana.m4a');
+    audioSix.setAttribute('src','assets/el-gran-varon.m4a');
     //https://jordanagk.github.io/experiments/assets/fadein-out.jquery.js
     
     $('#willie-colon').click(function(){
@@ -149,3 +147,11 @@ $(document).ready(function() {
     });
     
 });
+
+//Sources
+
+//“HTML DOM Audio Object.” HTML DOM Audio Object, www.w3schools.com/jsref/dom_obj_audio.asp.
+//
+//“Play an Audio File Using JQuery When a Button Is Clicked.” Stack Overflow, 1 Feb. 1962, stackoverflow.com/questions/8489710/play-an-audio-file-using-jquery-when-a-button-is-clicked.
+//
+//https://jordanagk.github.io/experiments/assets/fadein-out.jquery.js

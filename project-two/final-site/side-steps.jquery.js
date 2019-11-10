@@ -1,19 +1,5 @@
-
-//https://codepen.io/juliogcampos/pen/BzdjwY
-
-//https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_form_steps
-//https://stackoverflow.com/questions/14408891/getelementbyid-multiple-ids
-
-//  button.innerHTML = "Click me: " + count;
-//var nextstep = document.getElementById("next-step"),
-//var previousstep = document.getElementById("previous-step"),
-//https://javascript.info/searching-elements-dom
-//var steps = document.querySelectorAll(".previous-step", ".next-step")
-//https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_queryselectorall_class
-
 $(document).ready(function(){
-    
-//https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_document_queryselectorall_class
+
 var x = document.querySelectorAll(".buttons");
     
 var countnext = 0;
@@ -23,7 +9,6 @@ var previousstep = x[0];
 var player = x[1];
 var nextstep = x[2];
 
-//https://www.w3schools.com/jquery/eff_delay.asp
     
 player.onclick = function(){
     $(".rotate-lright").animate({
@@ -105,8 +90,7 @@ nextstep.onclick = function() {
       
     countnext=0;
   }
-
-  nextstep.innerHTML = "click me " + countnext;
+    
 }
 
 previousstep.onclick = function() {
@@ -175,8 +159,22 @@ previousstep.onclick = function() {
         
     }
 
-
-    previousstep.innerHTML = "click me " + countnext;
 }
 
 });
+
+//I used code from the following websites and forums to develop my jQuery
+
+//Campos, Júlio. “Click Counter with Javascript.” Code Pen, codepen.io/juliogcampos/pen/BzdjwY.
+
+//“JQuery Delay() Method.” JQuery Effect Delay() Method, www.w3schools.com/jquery/eff_delay.asp.
+
+//“Searching: GetElement*, QuerySelector*.” The Modern Javascript Tutorial, 17 Oct. 2019, javascript.info/searching-elements-dom.
+
+//“GetElementByID - Multiple IDs.” Stack Overflow, 1 Apr. 1963, stackoverflow.com/questions/14408891/getelementbyid-multiple-ids.
+
+//“Tryit Editor v3.6 queryselectorall_class.” Tryit Editor v3.6, www.w3schools.com/jsref/tryit.asp?filename=tryjsref_document_queryselectorall_class.
+
+//“Tryit Editor v3.6: Element QuerySelector All_Class.” Tryit Editor v3.6, www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_queryselectorall_class.
+
+//“Tryit Editor v3.6: Form Steps.” Tryit Editor v3.6, www.w3schools.com/howto/tryit.asp?filename=tryhow_js_form_steps.
