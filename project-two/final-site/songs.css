@@ -2,8 +2,9 @@
 
 body {
     background-color: #EDDCDC;
-    font-family: sans-serif;
-    color: black;
+    font-family: "Merriweather";
+    color: #901313;
+    font-weight: normal;
     margin: 0;
     padding: 0;
 }
@@ -11,22 +12,26 @@ body {
 .ipad-dimensions {
     width: 768px;
     height: 1024px;
-    background-color:#EDDCDC;
-    
     margin: 0 auto;
-    
+    text-align: center;
+    position: relative;
 }
 
 .title-container{
     font-family: "Great Vibes";
     font-size: 57px;
-    color:#901313;
-    text-align: center;
     margin: 0 auto;
-    padding-top:10px;
-    padding-bottom: 75px;
+    padding-top:50px;
+    padding-bottom: 10px;
 }
 
+.instructions{
+    font-size: 18px;
+    margin: 0 auto;
+    padding-top:10px;
+    padding-bottom:50px;
+    
+}
 
 .music-container{
     width:468px;
@@ -36,131 +41,60 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     
+    position:relative;
     margin-left:auto;
     margin-right:auto;
 }
 
-.music-button{
-    height:175px;
-    width:175px;
-}
-
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_triangle-right*/
 
-.controls{
-    display: flex;
-    justify-content:space-around;
-    
-    position: absolute;
-    top:93px;
-    
-    width:175px;
-    height:175px;
-    
-    background-color: #C9BBBB;
-    
-    visibility: hidden;
-}
 
 .music-title{
     position: absolute;
     top:0px;
-    
-    font-family: "Merriweather";
+
     font-size: 17px;
-    color:#901313;
     
-    text-align: center;
 }
 
 .artist{
     position: absolute;
     top:50px;
     
-    font-family: "Merriweather";
     font-size: 16px;
-    color:#901313;
-    
-    text-align: center;
+
 }
 
-.controls-two{
-    display: flex;
-    justify-content: space-around;
+.controls{
     
-
-    position: absolute;
-    top:200px;
-
+    display:flex;
+    justify-content: space-around;
     
     width:175px;
     height:175px;
     
     background-color: #C9BBBB;
     
-    visibility: hidden;
-}
-
-.controls-three{
-    display: flex;
-    justify-content: space-around;
+    visibility:hidden;
     
     position: absolute;
-    top:320px;
-    
-    width:175px;
-    height:175px;
-    
-    background-color: #C9BBBB;
-    
-    visibility: hidden;
 }
 
-.controls-four{
-    display: flex;
-    justify-content: space-around;
-    
-    width:175px;
-    height:175px;
-    
-    position: absolute;
-    top:320px;
-    
-    background-color: #C9BBBB;
-    
-    visibility: hidden;
+#showme-one, #showme-two{
+    top:0px;
 }
 
-.controls-five{
-    display: flex;
-    justify-content: space-around;
-    
-    position: absolute;
-    top:550px;
-    
-    width:175px;
-    height:175px;
-    
-    background-color: #C9BBBB;
-    
-    visibility: hidden;
+
+
+#showme-three, #showme-four{
+    top:229px;
 }
 
-.controls-six{
-    display: flex;
-    justify-content: space-around;
-    
-    position: absolute;
-    top:550px;
-    
-    width:175px;
-    height:175px;
-    
-    background-color: #C9BBBB;
-    
-    visibility: hidden;
-}
 
+
+#showme-five, #showme-six{
+    top:457px; 
+}
 
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_triangle-right*/
 .triangle-right {
@@ -172,6 +106,7 @@ body {
     
     position: relative;
     top:125px;
+
     
     border-left-color: #901313;
 
@@ -211,7 +146,7 @@ body {
 	border-bottom: 12.5px solid transparent;
     
     position: absolute;
-    left:200px;
+    left:0px;
     top:470px;
     
 }
@@ -220,15 +155,196 @@ body {
     display: flex;
     justify-content: space-around;
     
-    padding-top:50px;
-}
-
-.page-nav a{
-    
     font-family: 'Great Vibes', 'cursive';
     font-size: 27px;
     color:#901313;
     
+    padding-top:10px;
+}
+
+/** Steps **/
+
+
+.all-steps{
+    width:636px;
+    height:266px;
+    
+    position: relative;
+    left:65px;
+    top:-25px;
+}
+
+.rotate-lleft, .rotate-lright{
+    /*https://stackoverflow.com/questions/20061774/rotate-an-image-in-image-source-in-html*/
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    
+    position: absolute;
+    left:185px;
+}
+
+.rotate-fleft, .rotate-fright{
+    /*https://stackoverflow.com/questions/20061774/rotate-an-image-in-image-source-in-html*/
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    
+    position:absolute;
+    left:375px;
+}
+
+.rotate-lleft{
+    top:-40px;
+}
+
+.rotate-lright{
+    top:20px;
+}
+
+.rotate-fleft{
+    top:20px;
+}
+
+.rotate-fright{
+    top:-40px;
+}
+
+.button-container{
+    display:flex;
+    justify-content:space-around;
+    
+    padding-bottom: 50px;
+    
+    margin: 0 auto;
+    
+    width:600px;
+}
+
+.buttons{
+    background-color: #555555;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+
+    width: 149px;
+    height:54px;
+    
+    color:white;
+    
+    /*https://www.w3schools.com/css/tryit.asp?filename=trycss3_border-radius*/
+    
+    /*https://stackoverflow.com/questions/42080123/controlling-the-amount-of-space-in-justify-content-space-between*/
+    
+    border-radius:15px;
+    
     
 }
+
+.step-headers{
+    display: flex;
+    justify-content:space-around;
+    color:white;
+}
+
+.leader-button{
+    width:232px;
+    height:54px;
+
+    font-size:18px;
+    
+    background-color: black;
+    
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.follower-button{
+    width:232px;
+    height:54px;
+    
+    font-size:18px;
+    
+    background-color: #AD1616;
+    
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_triangle-right*/
+
+.instructions{
+    display: flex;
+    justify-content: space-around;
+    margin-top:20px;
+    color:white;
+}
+.leader-instructions{
+    width:232px;
+    height:215px;
+    
+
+    font-size:18px;
+    
+    background-color: black;
+    
+  display: flex;
+  justify-content: center;
+    text-align: center;
+  flex-direction: column;
+}
+
+.follower-instructions{
+    width:232px;
+    height:215px;
+    
+    font-size:18px;
+/*
+    
+    position:absolute;
+    left:550px;
+    top:558px;
+*/
+    
+      display: flex;
+  justify-content: center;
+  flex-direction: column;
+     text-align:center;
+    background-color: #AD1616;
+}
+
+.arrow-button-right{
+    width: 0;
+	height: 0;
+	border-top: 12.5px solid transparent;
+	border-left: 25px solid #555;
+	border-bottom: 12.5px solid transparent;;
+    
+    position: absolute;
+    left:857px;
+    top:470px;
+    
+}
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_triangle-left*/
+
+
+/*https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_queue_all
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_form_steps
+
+
+*/
+
 
