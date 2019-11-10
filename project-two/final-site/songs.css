@@ -33,21 +33,37 @@ body {
 .history-of-salsa-title{
     font-weight: bold;
     font-style: italic;
-    margin-left:81px;
+    text-align:left;
     /*https://stackoverflow.com/questions/38205797/how-to-combine-bold-and-italic-in-css#38205861*/
     padding-top:25px;
+    margin-left:81px;
 }
 
 .history-of-salsa-paragraph{
     width:550px;
-    margin-left: 81px;
+    
+    text-align: left;
     
     font-size:16px;
+    margin-left:81px;
 }
 
 .history-of-salsa-paragraph a {
     color:#4F5A65;
 }
+
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 12.5px solid transparent;
+	border-left: 25px solid #555;
+	border-bottom: 12.5px solid transparent;
+    
+    position:absolute;
+    right:75px;
+    top:775px;
+}
+
 
 /*Songs*/
 
