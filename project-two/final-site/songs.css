@@ -1,5 +1,3 @@
-/** Wireframe**/
-
 body {
     background-color: #EDDCDC;
     font-family: "Merriweather";
@@ -24,6 +22,34 @@ body {
     padding-top:50px;
     padding-bottom: 10px;
 }
+
+/*Home Page*/
+.photo-creds{
+    margin-top:0px;
+    text-align: right;
+    
+}
+
+.history-of-salsa-title{
+    font-weight: bold;
+    font-style: italic;
+    margin-left:81px;
+    /*https://stackoverflow.com/questions/38205797/how-to-combine-bold-and-italic-in-css#38205861*/
+    padding-top:25px;
+}
+
+.history-of-salsa-paragraph{
+    width:550px;
+    margin-left: 81px;
+    
+    font-size:16px;
+}
+
+.history-of-salsa-paragraph a {
+    color:#4F5A65;
+}
+
+/*Songs*/
 
 .instructions{
     font-size: 18px;
@@ -146,7 +172,20 @@ body {
 	border-bottom: 12.5px solid transparent;
     
     position: absolute;
-    left:0px;
+    left:-100px;
+    top:470px;
+    
+}
+
+.arrow-button-right{
+    width: 0;
+	height: 0;
+	border-top: 12.5px solid transparent;
+	border-left: 25px solid #555;
+	border-bottom: 12.5px solid transparent;;
+    
+    position: absolute;
+    left:857px;
     top:470px;
     
 }
@@ -155,7 +194,7 @@ body {
     display: flex;
     justify-content: space-around;
     
-    font-family: 'Great Vibes', 'cursive';
+    font-family: 'Great Vibes';
     font-size: 27px;
     color:#901313;
     
@@ -214,6 +253,12 @@ body {
     top:-40px;
 }
 
+.graphic-credits{
+    position: absolute;
+    bottom:0px;
+    left:175px;
+}
+
 .button-container{
     display:flex;
     justify-content:space-around;
@@ -252,34 +297,30 @@ body {
     display: flex;
     justify-content:space-around;
     color:white;
+    
 }
 
-.leader-button{
+.leader-button,.follower-button{
+    
     width:232px;
     height:54px;
-
+    
     font-size:18px;
     
     background-color: black;
     
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
+    border-radius: 15px;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
 
 .follower-button{
-    width:232px;
-    height:54px;
-    
-    font-size:18px;
     
     background-color: #AD1616;
-    
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
+
 }
 
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_triangle-right*/
@@ -290,13 +331,14 @@ body {
     margin-top:20px;
     color:white;
 }
-.leader-instructions{
+.leader-instructions,.follower-instructions{
     width:232px;
-    height:215px;
+    height:300px;
     
 
     font-size:18px;
     
+    border-radius:15px;
     background-color: black;
     
   display: flex;
@@ -306,36 +348,10 @@ body {
 }
 
 .follower-instructions{
-    width:232px;
-    height:215px;
     
-    font-size:18px;
-/*
-    
-    position:absolute;
-    left:550px;
-    top:558px;
-*/
-    
-      display: flex;
-  justify-content: center;
-  flex-direction: column;
-     text-align:center;
-    background-color: #AD1616;
+  background-color: #AD1616;
 }
 
-.arrow-button-right{
-    width: 0;
-	height: 0;
-	border-top: 12.5px solid transparent;
-	border-left: 25px solid #555;
-	border-bottom: 12.5px solid transparent;;
-    
-    position: absolute;
-    left:857px;
-    top:470px;
-    
-}
 
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_triangle-left*/
 
