@@ -9,8 +9,7 @@ body{
 }
 
 .container{
-    position:relative;
-    left:25%;
+    margin: 0 auto;
 }
 
 .body-content{
@@ -43,54 +42,16 @@ body{
     left:15%;
 }
 
-.plain-html{
+a{
+    background-color: lightgoldenrodyellow;
+    border: 5px solid lightgreen;
     width:200px;
     height:60px;
-    
-    background-color: lightgoldenrodyellow;
-    
-    border: 5px solid lightgreen;
 }
 
-.plain-html h5{
-    
-    position: relative;
-    top:0%;
-    left:35%;
-}
 
-.wireframe{
-    width:200px;
-    height:60px;
-    
-    position:relative;
-    top:15px;
-    
-    background-color: lightgoldenrodyellow;
-    border: 5px solid lightgreen;
-    
-}
 
-.wireframe h5{
-    
-    position: relative;
-    top:0%;
-    left:20%;
-}
 
-.final-site{
-    
-    background-color: lightgoldenrodyellow;
-    border: 5px solid lightgreen;
-    
-}
-
-.final-site h5{
-    
-    position: relative;
-    top:0%;
-    left:35%;
-}
 
 .exercise-three{
     width:300px;
@@ -101,24 +62,6 @@ body{
     
 }
 
-.exercise-three h2 {
-    position: relative;
-    left:35%;
-}
-
-.froggies-code{
-    
-    background-color: lightgoldenrodyellow;
-    border: 5px solid lightgreen;
-    
-}
-
-.froggies-code h5{
-    
-    position: relative;
-    top:0%;
-    left:20%;
-}
 
 .project-two{
     
