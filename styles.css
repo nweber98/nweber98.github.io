@@ -9,60 +9,25 @@ body{
 }
 
 .container{
+    width:768px;
+    height:1024px;
     margin: 0 auto;
 }
 
-.body-content{
-
-    background-color: lightpink;
-    
-    display:flex;
-    justify-content: center;
-    
-    position:relative;
-    left:-100px;
-    
-}
-
-.project-one{
-    
-    width:300px;
-    display: flex;
-    
-}
-
-.project-one h2{
-    
-    position: relative;
-    left:12.5%;
-}
-
-.p1-content{
-    position: relative;
-    left:15%;
-}
-
-a{
+.box {
     background-color: lightgoldenrodyellow;
     border: 5px solid lightgreen;
+    
     width:200px;
     height:60px;
-}
-
-
-
-
-
-.exercise-three{
-    width:300px;
-    background-color: lightcyan;
     
-    display:flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
-    
 }
 
 
-.project-two{
-    
-}
