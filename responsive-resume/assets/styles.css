@@ -1,0 +1,33 @@
+body{
+    background-color: beige;
+    
+    width:auto;
+    height: auto;
+    
+    display:flex;
+    justify-content: center; 
+}
+
+.container{
+    width:19vw;
+    height:75vh;
+    margin: 0 auto;
+    
+    background-color: aqua;
+}
+
+.contact-info{
+    width:19vw;
+    height:18vh;
+    background-color: #DCF5E1;
+    
+    display:flex;
+    flex-direction: row;
+}
+
+.contact-info img {
+    width:4vw;
+    height:11vh;
+    
+    border-radius: 30%;
+}
