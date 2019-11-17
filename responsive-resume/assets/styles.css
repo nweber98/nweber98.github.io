@@ -1,33 +1,53 @@
 body{
     background-color: beige;
     
+    font-family: "Roboto";
+    
     width:auto;
     height: auto;
     
-    display:flex;
-    justify-content: center; 
+    color:black;
 }
 
-.container{
-    width:19vw;
-    height:75vh;
-    margin: 0 auto;
-    
-    background-color: aqua;
-}
+/***********************************************************************************************************    HEADER HERE     ***********************/
 
-.contact-info{
-    width:19vw;
-    height:18vh;
+.header{
     background-color: #DCF5E1;
+    
+    padding: 0px;
     
     display:flex;
     flex-direction: row;
 }
 
-.contact-info img {
-    width:4vw;
-    height:11vh;
+.header img {
+    width:5.75em;
+    height:7.25em;
+    
+    margin-top: 1.5em;
     
     border-radius: 30%;
 }
+
+.name{
+    margin-top:0;
+    margin-bottom:0;
+    font-weight: bold;
+    color: #1E7131;
+}
+
+.header h6 {
+    padding-left: 1em;
+    
+    font-size: 1em;
+    font-weight: lighter;
+
+}
+
+/******************************************************************************************************         MAIN CONTENT     **********************/
+
+.h4{
+    
+}
+
+
