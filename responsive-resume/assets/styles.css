@@ -14,7 +14,12 @@ body{
 .header{
     background-color: #DCF5E1;
     
-    padding: 0px;
+    width:100%;
+/*
+    
+    margin-top:0em;
+    margin-bottom: 1.5em;
+*/
     
     display:flex;
     flex-direction: row;
@@ -46,8 +51,27 @@ body{
 
 /******************************************************************************************************         MAIN CONTENT     **********************/
 
-.h4{
-    
+hr.myClass{
+    margin-top:1.5em;
+    margin-bottom:1.5em;
+}
+
+.category{
+    font-weight:bold;
+    font-size:1em;
+    color: #1E7131;
+}
+
+.job-title{
+    margin-top:1.5em;
+    margin-bottom: 0em;
+    font-weight:normal;
+}
+
+.description{
+    margin-top:0em;
+    font-size: 1em;
+    font-weight: lighter;
 }
 
 
