@@ -54,6 +54,8 @@ body{
 hr.myClass{
     margin-top:1.5em;
     margin-bottom:1.5em;
+    
+    border-top: .0625em solid #1E7131;
 }
 
 .category{
@@ -74,4 +76,41 @@ hr.myClass{
     font-weight: lighter;
 }
 
+/************************************************************************************************       MEDIA QUERIES    ******************************/
+
+@media only screen and (min-width:500px) and (max-width:959px) {
+    
+    body{
+        background-color: #FAEFFF;
+    }
+
+    .header{
+        background-color: #FAEFFF;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header img{
+        margin: 0 auto;
+        border-radius:0;
+    }
+    
+    .name{
+        padding-top:1em;
+        color:#5656D1;
+    }
+    
+    .header h6{
+        margin: 0 auto;
+    }
+    
+    .category{
+        color:#5656D1;
+    }
+    
+    .top{
+        display: flex;
+        flex-direction: row;
+    }
+}
 
