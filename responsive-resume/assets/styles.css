@@ -110,7 +110,39 @@ hr.myClass{
     
     .top{
         display: flex;
-        flex-direction: row;
+        justify-content: space-between;
     }
+    
+    .spanish{
+        width:20em;
+        margin-left:0;
+    }
+    
+    .content{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}
+
+@media only screen and (min-width:960px){
+    
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .j-experience{
+        width:25em;
+    }
+    
+    .spanish{
+        width:20em;
+    }
+    
 }
 
