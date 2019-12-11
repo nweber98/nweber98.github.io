@@ -1,14 +1,9 @@
 body {
-  width: 50%;
   text-align: left;
-  position: absolute;
 }
 
 #body-text {
-  width: 50%;
   text-align: left;
-  position: absolute;
-
 }
 
 h1 {
@@ -50,7 +45,7 @@ p {
   font-weight: 400;
 
   font-style: normal;
-  font-size: 20vw;
+  font-size: 5vw;
   line-height: 5vw;
 }
 
