@@ -1,0 +1,77 @@
+body {
+  background-color: #BC941B;
+}
+
+
+
+.container {
+background-color: #BC941B;
+width: 60%;
+margin-left: 20%;
+}
+
+
+#new-zoo{
+    height:100vh;
+    width:100vw;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  height: 100vh;
+  width:100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+h1 {
+  font-family: balboa-plus-fill, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 150px;
+text-align: center;
+}
+
+h2 {
+  font-family: eloquent-jf-small-caps-pro, serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+margin-top: 50px:
+}
+
+p {padding: inherit;}
+/*
+
+@media only screen and (min-width:960px){
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+}*/
